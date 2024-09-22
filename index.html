@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEA Salon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Header Start-->
+    <header
+      class="bg-primary absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-7">
+            <a
+              href="#home"
+              class="font-medium text-base lg:text-xl text-secondary block py-6 hover:text-secondary"
+              >seasalon</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 hover:-translate-y1 hover:scale-125 transition duration-300 ease-in-out lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-inner rounded-none w-full max-w-[120px] right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:bg-transparent"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base lg:text-lg lg:font-medium text-secondary py-2 mx-4 flex group-hover:text-secondary lg:group-hover:-translate-y1 lg:group-hover:scale-110"
+                    >About Us</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#services"
+                    class="text-base lg:text-lg lg:font-medium text-secondary py-2 mx-4 flex group-hover:text-secondary lg:group-hover:-translate-y1 lg:group-hover:scale-110"
+                    >Services</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base lg:text-lg lg:font-medium text-secondary py-2 mx-4 flex group-hover:text-secondary lg:group-hover:-translate-y1 lg:group-hover:scale-110"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Start -->
+    <section
+      id="home"
+      class="pt-0 h-[450px] lg:h-[800px] font-Poppins relative"
+    >
+      <img
+        src="/dist/img/seasalon1.png"
+        class="w-full h-full min-h-[400px] lg:h-[805px] object-cover absolute mix-blend-overlay opacity-100"
+      />
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-7 pt-36 lg:pt-72 lg:text-center">
+            <h1
+              class="font-semibold text-primary text-base md:text-lg lg:text-xl"
+            >
+              Welcome to
+              <span
+                class="block font-semibold text-primary pt-1 lg:pt-2 text-4xl lg:text-8xl"
+                >SEA SALON</span
+              >
+            </h1>
+            <h2
+              class="text-base font-normal text-primary pt-1 lg:pt-3 md:text-lg lg:text-2xl"
+            >
+              Beauty and Elegance Redefined
+            </h2>
+            <button
+              class="relative text-base font-semibold text-secondary bg-primary px-10 py-3 rounded-none mt-10 hover:-translate-y1 hover:scale-110 hover:opacity-80 transition duration-300 ease-in-out overflow-visible"
+            >
+              <span
+                class="absolute animate-ping rounded-none bg-primary opacity-30 top-0 right-0 bottom-0 left-0"
+              ></span>
+              Book
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+    <!-- About Start-->
+    <section id="about" class="w-full h-[700px] bg-black">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="px-7 lg:pt-[55px] lg:w-1/2">
+            <h3
+              class="font-semibold text-white text-3xl lg:text-5xl mb-5 lg:mb-7 lg:mt-16 sm:mt-7 md:mt-7 text-left"
+            >
+              About Us
+            </h3>
+            <p
+              class="max-w-lg font-normal text-white text-base lg:text-lg text-left"
+            >
+              Discover SEA Salon, a rising star in the salon industry celebrated
+              for its exceptional services and outstanding customer reviews.
+              With a rapidly growing client base and a stellar reputation, SEA
+              Salon is your ultimate destination for all your beauty need.
+            </p>
+          </div>
+          <div class="w-full self-end px-7 lg:w-1/2">
+            <div class="mt-12 lg:mt-32 lg:right-0 lg:max-w-[500px]">
+              <img
+                src="dist/img/seasalon2.jpg"
+                alt="seasalon"
+                class="mx-auto rounded-lg lg:ml-20"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End-->
+    <!-- Service Start-->
+    <section id="services" class="w-full max-h-[1500px] bg-secondary mb-0">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="px-7 pt-10 pb-16 mb-16 max-w-xl mx-auto text-center">
+            <h3
+              class="font-semibold text-pretty text-3xl lg:text-5xl mb-16 lg:mb-7 text-primary"
+            >
+              Services
+            </h3>
+            <div
+              class="mx-auto grid gap-6 md:w-3/4 lg:pt-10 lg:w-full lg:grid-cols-3 lg:flex lg:justify-center"
+            >
+              <div
+                class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:min-w-[350px]"
+              >
+                <div class="mb-12 space-y-4">
+                  <h3 class="text-2xl font-semibold text-zinc-700">
+                    Haircuts and Styling
+                  </h3>
+                </div>
+                <img
+                  src="dist/img/services1.jpg"
+                  alt="services1"
+                  class="w-full max-h-60 object-cover rounded-2xl ml-auto"
+                />
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:min-w-[400px]"
+              >
+                <div class="mb-12 space-y-4">
+                  <h3 class="text-2xl font-semibold text-zinc-700">
+                    Manicure and Pedicure
+                  </h3>
+                </div>
+                <img
+                  src="dist/img/services2.jpg"
+                  alt="services1"
+                  class="w-full max-h-60 object-cover rounded-2xl ml-auto"
+                />
+              </div>
+              <div
+                class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:min-w-[350px]"
+              >
+                <div class="mb-12 space-y-4">
+                  <h3 class="text-2xl font-semibold text-zinc-700">
+                    Facial Treatments
+                  </h3>
+                </div>
+                <img
+                  src="dist/img/services3.jpg"
+                  alt="services1"
+                  class="w-full max-h-60 object-cover rounded-2xl ml-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service End-->
+    <!-- Contact Start-->
+    <section id="contact" class="pt-20 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl max-h-full mx-auto text-center mb-4">
+            <h3
+              class="font-semibold text-pretty text-3xl lg:text-5xl mb-16 lg:mb-7 text-secondary"
+            >
+              Contact
+            </h3>
+          </div>
+        </div>
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-lg font-base text-secondary"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                class="w-full bg-slate-300 text-secondary p-3 rounded-md focus:outline-1 focus:ring-secondary focus:ring-1 focus:border-secondary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="email" class="text-lg font-base text-secondary"
+                >Email</label
+              >
+              <input
+                type="text"
+                id="email"
+                class="w-full bg-slate-300 text-secondary p-3 rounded-md focus:outline-1 focus:ring-secondary focus:ring-1 focus:border-secondary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="pesan" class="text-lg font-base text-secondary"
+                >Massage</label
+              >
+              <textarea
+                type="text"
+                id="pesan"
+                class="w-full bg-slate-300 text-secondary p-3 rounded-md focus:outline-1 focus:ring-secondary focus:ring-1 focus:border-secondary h-32"
+              ></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="text-bold font-semibold text-primary bg-secondary py-3 px-8 w-full hover:opacity-80 hover:shadow-lg transition duration-500"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact End-->
+    <!-- footer start-->
+    <footer class="bg-secondary pt-24 pb-12">
+      <div class="container">
+        
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium">
+            <h2 class="font-bold text-4xl text-primary mb-7">Sea Salon</h2>
+            <h3 class="font-bold text-xl mb-2">Contact Us</h3>
+            <p>seasalon@gmail.com</p>
+            <p>Jl.Cibubur No 99</p>
+            <p>Jakarta Timur</p>
+          </div>
+        </div>
+        <div class="wp-full pt-10 border-t border-slate-700 00"></div>
+          <p class="font-medium text-sm text-slate-500 text-center">
+            Dibuat oleh Mohammad Waarits
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer End-->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
